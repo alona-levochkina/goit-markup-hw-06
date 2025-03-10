@@ -333,6 +333,7 @@ button {
 
 .nav-mob-link {
   font-weight: 700;
+  font-style: normal;
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
@@ -552,6 +553,10 @@ button {
   .content-item {
     width: calc((100% - 24px) / 2);
   }
+
+  .content-page-title {
+    text-align: start;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -580,6 +585,7 @@ button {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    text-align: center;
   }
 
   .content-page-text {
@@ -608,8 +614,8 @@ button {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   gap: 72px;
-  margin: 0 28px;
 }
 
 .page-team-list {
@@ -827,8 +833,12 @@ button {
 
 .footer-wrapper {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-logo-container {
+  margin-bottom: 72px;
 }
 
 .footer-logo {
@@ -861,6 +871,9 @@ button {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.footer-social-container {
   margin-bottom: 72px;
 }
 
@@ -879,7 +892,6 @@ button {
   align-items: center;
   justify-content: center;
   gap: 16px;
-  margin-bottom: 72px;
 }
 
 .footer-social-item {
@@ -964,6 +976,10 @@ button {
     margin-right: 24px;
   }
 
+  .footer-wrapper {
+    max-width: 584px;
+  }
+
   .footer-logo {
     text-align: start;
   }
@@ -979,6 +995,10 @@ button {
   .footer-form {
     display: flex;
     gap: 24px;
+  }
+
+  .footer-form-input {
+    margin-bottom: 0;
   }
 }
 
