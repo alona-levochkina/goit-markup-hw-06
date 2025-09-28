@@ -1009,7 +1009,6 @@ button {
 
   .footer-wrapper {
     align-items: baseline;
-    justify-content: flex-start;
     flex-wrap: nowrap;
   }
 
